@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662493815659,
+  "timestamp": 1662494235448,
   "index": "/gym-tracker/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/gym-tracker/favicon.ico",
         "/gym-tracker/index.html",
-        "/gym-tracker/main.8e74099fd7387284.js",
+        "/gym-tracker/main.2067327200c07269.js",
         "/gym-tracker/manifest.webmanifest",
         "/gym-tracker/polyfills.d52b0bd10bc6fda6.js",
         "/gym-tracker/runtime.c4f7a714d048eae9.js",
@@ -52,8 +52,8 @@
     "/gym-tracker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/gym-tracker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gym-tracker/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gym-tracker/index.html": "abb5fd192d066f49b7ee00121ec3935d4586ecb0",
-    "/gym-tracker/main.8e74099fd7387284.js": "385ef96bc0820d443a33ecd5ed163d2a7cb8c69b",
+    "/gym-tracker/index.html": "4214d96f9038facdc3950f7da29ceda368fd92b5",
+    "/gym-tracker/main.2067327200c07269.js": "caffb89c729ac98399c4bdea0e2e8dd7e6f0aa32",
     "/gym-tracker/manifest.webmanifest": "6200dc0022f31e9b5f5e3274b37cde30d745b7b0",
     "/gym-tracker/polyfills.d52b0bd10bc6fda6.js": "4eba361178b6a3cd794b1329e80a5043808e7f77",
     "/gym-tracker/runtime.c4f7a714d048eae9.js": "5d89a1a41105fc035b51dac8c9992fc9017a8ed4",
