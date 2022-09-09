@@ -1,0 +1,25 @@
+<div fxLayout="column">
+  <div fxLayout="column" *ngFor="let exercise of exercises">
+    <div>{{ exercise.name }}</div>
+    <div fxLayout="row">
+      <div fxFlex="70">Serie</div>
+      <div fxFlex="15" class="text-center">Reps</div>
+      <div fxFlex="15" class="text-center">Kg</div>
+    </div>
+    <div fxLayout="row" *ngFor="let serie of exercise.series; let serieIndex = index">
+      <div fxFlex="70">{{ serieIndex + 1 }}</div>
+      <div fxFlex="15" class="text-center">
+        <input type="text" maxLength="3" [ngModel]="serie.reps" (ngModelChange)="serie.reps = +$event">
+      </div>
+      <div fxFlex="15" class="text-center">
+        <input type="text" maxLength="3" [ngModel]="serie.weightInKg" (ngModelChange)="serie.weightInKg = +$event">
+      </div>
+    </div>
+    <div>
+      <button (click)="onClickAddSerie(exercise.name)">
+        + Add serie
+      </button>
+    </div>
+  </div>
+  <div (click)="debug()">DEBUG</div>
+</div>
