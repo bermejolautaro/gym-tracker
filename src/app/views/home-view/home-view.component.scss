@@ -1,12 +1,17 @@
 input {
-  max-width: 2rem;
+  max-width: 3rem;
   border-radius: 3px;
   border: none;
   background-color: #ccc;
   text-align: center;
+  border: 2px solid transparent;
 }
 
 input:focus, input:focus-within {
   border: 2px solid #787878;
   outline: none;
+}
+
+.serie {
+  margin: .2rem;
 }
